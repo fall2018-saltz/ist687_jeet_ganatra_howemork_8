@@ -73,3 +73,5 @@ summary(linmod)
 
 
 #according to me, hotelSize is the best independent variable to predict customer satisfaction
+linmod_hotelSize <- lm(overallCustSat~hotelSize,data=dataset)
+summary(linmod_hotelSize)
