@@ -28,3 +28,4 @@ biplot6 <- ggplot(gendercount,aes(gender,mean1))
 biplot6<- biplot6 + geom_point()
 
 
+
