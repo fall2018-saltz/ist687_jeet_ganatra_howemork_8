@@ -68,3 +68,4 @@ summary(linmod)
 #hence, the dependent variable is overallCustSat
 #and the independent variables are checkInSat, gender, and guestAge
 #among these, gender is a dummy variable and can only take 2 values i.e. 0 and 1
+#equation: custSat <- intercept + (checkInSatcoeff * checkInSatValue) + (guestAgeCoeff*guestAgeValue) + (genderCoeff*genderValue)
