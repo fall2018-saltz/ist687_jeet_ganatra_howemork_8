@@ -23,6 +23,7 @@ biplot3 <- ggplot(dataset, aes(map_id = hotelState))
 #creating a map visualization
 biplot3 <- biplot3 + geom_map(map = us, aes(fill = factor(dataset$overallCustSat)))
 #defining the x and y axes values of the map
+#coord_map() handles the distortion and aspect ratio of the map
 biplot3 <- biplot3 + expand_limits(x = us$long, y = us$lat) + coord_map()
 biplot3 <- biplot3 + ggtitle("Map of color coded USA")
 biplot3
