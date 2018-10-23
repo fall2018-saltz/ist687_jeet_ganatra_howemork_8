@@ -1,6 +1,6 @@
 
 library(ggplot2)
-biplot1 <- ggplot(dataset,aes(x = hotelSize, y = overallCustSat))
+biplot1 <- ggplot(dataset,aes(jitter(hotelSize),overallCustSat))
 biplot1 <- biplot1 + geom_point()
 
 biplot2 <- ggplot(dataset,aes(jitter(checkInSat),overallCustSat))
@@ -15,5 +15,5 @@ biplot3 <- biplot3 + expand_limits(x = us$long, y = us$lat) + coord_map()
 biplot3 <- biplot3 + ggtitle("Map of color coded USA")
 biplot3
 
-biplot4 <- ggplot(dataset,aes(x= hotelClean, y = overallCustSat))
+biplot4 <- ggplot(dataset,aes(jitter(hotelClean),overallCustSat))
 biplot4 <- biplot4 + geom_point()
