@@ -83,3 +83,4 @@ summary(linmod_hotelSize)
 
 #comparing linear and multiple regressions, we see that the value of r-squared reduces significantly
 #when applying linear regression. Hence, multiple regression is a more accurate method for predicting
+#customer satisfaction
