@@ -1,5 +1,5 @@
 
 library(jsonlite)
-df <- fromJSON("hotelSurveySherison.json")
-df<-data.frame(df)
-str(df)
+dataset <- fromJSON("hotelSurveySherison.json")
+dataset <- data.frame(dataset)
+str(dataset)
