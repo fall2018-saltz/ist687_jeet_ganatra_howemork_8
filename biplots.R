@@ -24,5 +24,6 @@ biplot5 <- biplot5 + geom_point()
 
 genderCount <- group_by(dataset, gender)
 genderCount <- summarize(meanSat = mean(overallCustSat))
+genderCount <- as.data.frame(genderCount)
 
 
