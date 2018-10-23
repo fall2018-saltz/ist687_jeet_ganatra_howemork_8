@@ -1,4 +1,5 @@
 
+#installing llibrary for ggplot and dplyr
 library(ggplot2)
 library(dplyr)
 biplot1 <- ggplot(dataset,aes(jitter(hotelSize),overallCustSat))
