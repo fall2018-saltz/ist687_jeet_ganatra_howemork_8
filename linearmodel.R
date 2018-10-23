@@ -7,3 +7,5 @@ summary(linmod)
 
 #based on the p-values found during regression, the hotel state variables, hotel size and 
 #gender variables are statistically significant
+
+#the statistically significant coefficients for each predictor are as follows - 
