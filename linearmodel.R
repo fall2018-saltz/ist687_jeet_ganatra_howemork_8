@@ -62,3 +62,5 @@ summary(linmod)
 # hotelStateWisconsin             1.293e-02  6.155e-02   0.210   0.8336    
 # hotelStateWyoming               1.080e-01  1.529e-01   0.706   0.4800    
 # genderMALE                      1.218e-02  1.116e-02   1.091   0.2752    
+
+#the variables are customer satisfaction, checkInSat, guestAge, and gender  
