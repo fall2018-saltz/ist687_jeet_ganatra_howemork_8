@@ -40,6 +40,7 @@ biplot5 <- biplot5 + geom_point()
 #calculating the average satisfaction per gender using dplyr and then plotting the mean using geom_point()
 gendercount <- dataset %>% group_by(gender) %>% summarize(mean1 = mean(overallCustSat))
 gendercount <- as.data.frame(gendercount)
+#plotting average satisfaction per gender vs customer satisfaction
 biplot6 <- ggplot(gendercount,aes(gender,mean1)) 
 biplot6<- biplot6 + geom_point()
 
