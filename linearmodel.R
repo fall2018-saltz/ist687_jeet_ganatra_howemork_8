@@ -63,4 +63,5 @@ summary(linmod)
 # hotelStateWyoming               1.080e-01  1.529e-01   0.706   0.4800    
 # genderMALE                      1.218e-02  1.116e-02   1.091   0.2752    
 
-#the variables are customer satisfaction, checkInSat, guestAge, and gender  
+#the variables are customer satisfaction, checkInSat, guestAge, and gender
+#this model predicts the customer satisfaction  based on some independent variables
