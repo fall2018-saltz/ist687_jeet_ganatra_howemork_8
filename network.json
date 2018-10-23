@@ -73,6 +73,16 @@
             ],
             "source": "biplots.R",
             "target": "biplot5.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "biplot6",
+                    "type": "png"
+                }
+            ],
+            "source": "biplots.R",
+            "target": "biplot6.png"
         }
     ],
     "nodes": [
@@ -110,6 +120,6 @@
             "name": "biplot6.png"
         }
     ],
-    "updated_at": "2018-10-23 15:56:32",
+    "updated_at": "2018-10-23 15:56:43",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_8"
 }
