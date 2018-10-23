@@ -81,4 +81,5 @@ summary(linmod_hotelSize)
 
 # Multiple R-squared:  3.354e-05,	Adjusted R-squared:  -6.648e-05
 
-#comparing linear and multiple regression, we see that the value of r-squared reduces significantly
+#comparing linear and multiple regressions, we see that the value of r-squared reduces significantly
+#when applying linear regression. Hence, multiple regression is a more accurate method for predicting
