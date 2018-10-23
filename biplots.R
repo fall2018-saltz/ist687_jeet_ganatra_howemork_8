@@ -16,3 +16,4 @@ biplot3 <- biplot3 + ggtitle("Map of color coded USA")
 biplot3
 
 biplot4 <- ggplot(dataset,aes(jitter(hotelClean),overallCustSat))
+biplot4 <- biplot4 + geom_point()
