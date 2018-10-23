@@ -37,6 +37,7 @@ biplot4 <- biplot4 + geom_point()
 biplot5 <- ggplot(dataset,aes(jitter(hotelFriendly),overallCustSat))
 biplot5 <- biplot5 + geom_point()
 
+#calculating the average satisfaction per gender using dplyr and then plotting the mean using geom_point()
 gendercount <- dataset %>% group_by(gender) %>% summarize(mean1 = mean(overallCustSat))
 gendercount <- as.data.frame(gendercount)
 biplot6 <- ggplot(gendercount,aes(gender,mean1)) 
