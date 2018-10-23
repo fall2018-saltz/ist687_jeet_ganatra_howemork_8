@@ -21,5 +21,6 @@ biplot4 <- biplot4 + geom_point()
 biplot5 <- ggplot(dataset,aes(jitter(hotelFriendly),overallCustSat))
 biplot5 <- biplot5 + geom_point()
 
+biplot6 <- geom_col(aes(x = gender, y = overallCustSat, fun.y = "mean")
 
 
