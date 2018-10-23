@@ -1,4 +1,5 @@
 
+# predicting customer satisfaction using a multiple regression model with overallCustSat as the 
 linmod  <- lm(overallCustSat~hotelSize+checkInSat+hotelState+hotelClean+hotelFriendly+gender+guestAge+lengthOfStay+whenBookedTrip,data = dataset)
 linmod
 summary(linmod)
