@@ -1,0 +1,178 @@
+{
+    "collaborators": [
+        "jganatra07"
+    ],
+    "created_at": "2018-10-23 02:21:10",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "output": "dataset",
+                    "type": "csv"
+                }
+            ],
+            "source": "json_file.R",
+            "target": "dataset.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dataset",
+                    "type": "csv"
+                }
+            ],
+            "source": "dataset.csv",
+            "target": "biplots.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "biplot1",
+                    "type": "png"
+                }
+            ],
+            "source": "biplots.R",
+            "target": "biplot1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "biplot2",
+                    "type": "png"
+                }
+            ],
+            "source": "biplots.R",
+            "target": "biplot2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "biplot3",
+                    "type": "png"
+                }
+            ],
+            "source": "biplots.R",
+            "target": "biplot3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "biplot4",
+                    "type": "png"
+                }
+            ],
+            "source": "biplots.R",
+            "target": "biplot4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "biplot5",
+                    "type": "png"
+                }
+            ],
+            "source": "biplots.R",
+            "target": "biplot5.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "biplot6",
+                    "type": "png"
+                }
+            ],
+            "source": "biplots.R",
+            "target": "biplot6.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "biplot7",
+                    "type": "png"
+                }
+            ],
+            "source": "biplots.R",
+            "target": "biplot7.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "biplot8",
+                    "type": "png"
+                }
+            ],
+            "source": "biplots.R",
+            "target": "biplot8.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "biplot9",
+                    "type": "png"
+                }
+            ],
+            "source": "biplots.R",
+            "target": "biplot9.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dataset",
+                    "type": "csv"
+                }
+            ],
+            "source": "dataset.csv",
+            "target": "linearmodel.R"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "dataset.csv"
+        },
+        {
+            "assigned_to": "jganatra07",
+            "desc": "",
+            "name": "json_file.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "jganatra07",
+            "desc": "",
+            "name": "biplots.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "biplot1.png"
+        },
+        {
+            "name": "biplot2.png"
+        },
+        {
+            "name": "biplot3.png"
+        },
+        {
+            "name": "biplot4.png"
+        },
+        {
+            "name": "biplot5.png"
+        },
+        {
+            "name": "biplot6.png"
+        },
+        {
+            "name": "biplot7.png"
+        },
+        {
+            "name": "biplot8.png"
+        },
+        {
+            "name": "biplot9.png"
+        },
+        {
+            "desc": "",
+            "name": "linearmodel.R"
+        }
+    ],
+    "updated_at": "2018-10-23 17:15:29",
+    "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_8"
+}
