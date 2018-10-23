@@ -14,3 +14,5 @@ biplot3 <- biplot3 + geom_map(map = us, aes(fill = factor(dataset$overallCustSat
 biplot3 <- biplot3 + expand_limits(x = us$long, y = us$lat) + coord_map()
 biplot3 <- biplot3 + ggtitle("Map of color coded USA")
 biplot3
+
+biplot4 <- ggplot(dataset,aes(jitter(hotelClean),overallCustSat))
