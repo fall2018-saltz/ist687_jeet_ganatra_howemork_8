@@ -18,6 +18,7 @@ dataset$hotelState <- tolower(dataset$hotelState)
 #turning data from the maps package into a data frame suitable for plotting with ggplot2
 us <- map_data("state")
 
+#initializing  a ggplot object and passing dataset as the input data with map ID as hotelState
 biplot3 <- ggplot(dataset, aes(map_id = hotelState))
 biplot3 <- biplot3 + geom_map(map = us, aes(fill = factor(dataset$overallCustSat)))
 biplot3 <- biplot3 + expand_limits(x = us$long, y = us$lat) + coord_map()
