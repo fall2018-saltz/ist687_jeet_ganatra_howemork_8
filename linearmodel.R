@@ -2,6 +2,7 @@
 # predicting customer satisfaction using a multiple regression model with overallCustSat as the 
 #dependent variable and hotelSize, checkInSat, hotelState, hotelClean, hotelFriendly, gender, guestAge,
 #lengthOfStay and whenBookedTrip as the independent variables
+#the summary() summarizes the various data values of variable "linmod"
 linmod  <- lm(overallCustSat~hotelSize+checkInSat+hotelState+hotelClean+hotelFriendly+gender+guestAge+lengthOfStay+whenBookedTrip,data = dataset)
 linmod
 summary(linmod)
