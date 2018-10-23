@@ -66,3 +66,4 @@ summary(linmod)
 #the variables are overallCustSat, checkInSat, guestAge, and gender
 #this model predicts the customer satisfaction  based on some independent variables
 #hence, the dependent variable is overallCustSat
+#and the independent variables are checkInSat, gender, and guestAge
