@@ -23,5 +23,6 @@ biplot5 <- ggplot(dataset,aes(jitter(hotelFriendly),overallCustSat))
 biplot5 <- biplot5 + geom_point()
 
 genderCount <- group_by(dataset, gender)
+genderCount <- summarize(meanSat = mean(overallCustSat))
 
 
