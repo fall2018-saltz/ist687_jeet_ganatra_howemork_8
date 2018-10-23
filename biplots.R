@@ -22,8 +22,7 @@ biplot4 <- biplot4 + geom_point()
 biplot5 <- ggplot(dataset,aes(jitter(hotelFriendly),overallCustSat))
 biplot5 <- biplot5 + geom_point()
 
-genderCount <- group_by(dataset, gender)
-genderCount <- summarize(meanSat = mean(overallCustSat))
-genderCount <- as.data.frame(genderCount)
+gendercount <- df %>% group_by(gender) %>% summarize(mean1 = mean(overallCustSat))
+gendercount <- as.data.frame(gendercount)
 
 
