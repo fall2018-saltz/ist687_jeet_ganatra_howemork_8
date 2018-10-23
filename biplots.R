@@ -6,4 +6,6 @@ biplot1 <- biplot1 + geom_point()
 biplot2 <- ggplot(dataset,aes(jitter(checkInSat),overallCustSat))
 biplot2 <- biplot2 + geom_point()
 
-biplot3 <- 
+us <- map_data("state")
+
+biplot3 <- ggplot(dataset, aes()
