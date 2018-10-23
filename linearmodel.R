@@ -75,3 +75,10 @@ summary(linmod)
 #according to me, hotelSize is the best independent variable to predict customer satisfaction
 linmod_hotelSize <- lm(overallCustSat~hotelSize,data=dataset)
 summary(linmod_hotelSize)
+# Estimate Std. Error t value Pr(>|t|)
+# (Intercept) 7.0984171  0.0306494 231.600   <2e-16 ***
+# hotelSize   0.0001120  0.0001934   0.579    0.563   
+
+# Multiple R-squared:  3.354e-05,	Adjusted R-squared:  -6.648e-05
+
+#comparing linear and multiple regression, we see that the value of r-squared reduces significantly
