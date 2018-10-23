@@ -1,5 +1,6 @@
 
 library(ggplot2)
+library(dplyr)
 biplot1 <- ggplot(dataset,aes(jitter(hotelSize),overallCustSat))
 biplot1 <- biplot1 + geom_point()
 
@@ -21,8 +22,6 @@ biplot4 <- biplot4 + geom_point()
 biplot5 <- ggplot(dataset,aes(jitter(hotelFriendly),overallCustSat))
 biplot5 <- biplot5 + geom_point()
 
-biplot6 <- geom_col(aes(x = gender, y = overallCustSat), fun.y = "mean")
-biplot6 <- biplot6 + ggplot(dataset, title = "Hotel by Gender")
-biplot6
+genderCount <- group_by(dataset, gender)
 
 
