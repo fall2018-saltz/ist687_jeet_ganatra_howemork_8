@@ -4,6 +4,7 @@ library(ggplot2)
 library(dplyr)
 
 #customer satisfaction will be plotted on the y-axis as it is the dependent variable
+#jitter() adds a small amount of noise to the numeric vector
 biplot1 <- ggplot(dataset,aes(jitter(hotelSize),overallCustSat))
 biplot1 <- biplot1 + geom_point()
 
