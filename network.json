@@ -113,6 +113,16 @@
             ],
             "source": "biplots.R",
             "target": "biplot9.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dataset",
+                    "type": "csv"
+                }
+            ],
+            "source": "dataset.csv",
+            "target": "linearmodel.R"
         }
     ],
     "nodes": [
@@ -163,6 +173,6 @@
             "name": "linearmodel.R"
         }
     ],
-    "updated_at": "2018-10-23 17:15:09",
+    "updated_at": "2018-10-23 17:15:29",
     "url": "https://github.com/fall2018-saltz/ist687_jeet_ganatra_howemork_8"
 }
