@@ -44,6 +44,7 @@ gendercount <- as.data.frame(gendercount)
 biplot6 <- ggplot(gendercount,aes(gender,mean1)) 
 biplot6<- biplot6 + geom_point()
 
+#plotting guestAge vs customer satisfaction
 biplot7 <-  ggplot(dataset,aes(jitter(guestAge),overallCustSat))
 biplot7 <- biplot7 + geom_point()
 
