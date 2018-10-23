@@ -10,3 +10,4 @@ dataset$hotelState <- tolower(dataset$hotelState)
 us <- map_data("state")
 
 biplot3 <- ggplot(dataset, aes(map_id = hotelState))
+biplot3 <- biplot3 + geom_map(map = us, aes(fill = factor(dataset$overallCustSat)))
