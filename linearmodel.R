@@ -69,3 +69,4 @@ summary(linmod)
 #and the independent variables are checkInSat, gender, and guestAge
 #among these, gender is a dummy variable and can only take 2 values i.e. 0 and 1
 #equation: custSat <- intercept + (checkInSatcoeff * checkInSatValue) + (guestAgeCoeff*guestAgeValue) + (genderCoeff*genderValue)
+#custSat <-  8.321e+00 + (-2.381e-01 * checkInSatValue) + (-1.205e-01 * guestAgeValue) + (1.218e-02 * genderValue)
