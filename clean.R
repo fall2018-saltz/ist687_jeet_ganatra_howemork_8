@@ -1,5 +1,5 @@
 
 library(jsonlite)
-df <- fromJSON(file.choose())
+df <- fromJSON("hotelSurveySherison.json")
 df<-data.frame(df)
 str(df)
