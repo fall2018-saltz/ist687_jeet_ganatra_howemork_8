@@ -52,6 +52,7 @@ biplot7 <- biplot7 + geom_point()
 biplot8 <-  ggplot(dataset,aes(jitter(lengthOfStay),overallCustSat))
 biplot8 <- biplot8 + geom_point()
 
+#plotting booking time vs customer satisfaction
 biplot9 <- ggplot(dataset,aes(jitter(whenBookedTrip),overallCustSat))
 biplot9 <- biplot9 + geom_point()
 
