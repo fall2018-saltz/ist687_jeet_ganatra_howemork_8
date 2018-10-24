@@ -32,7 +32,7 @@ summary(linmod)
 
 
 #according to me, hotelClean is the best independent variable to predict customer satisfaction
-linmod_hotelSize <- lm(overallCustSat~hotelClean,data=dataset)
+linmod_hotelClean <- lm(overallCustSat~hotelClean,data=dataset)
 summary(linmod_hotelClean)
 # Estimate Std. Error t value Pr(>|t|)
 # (Intercept) 7.0984171  0.0306494 231.600   <2e-16 ***
