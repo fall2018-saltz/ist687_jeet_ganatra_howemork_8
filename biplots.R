@@ -65,6 +65,7 @@ biplot9 <- biplot9 + geom_point()
 # plot6 - males on an average have a marginally higher satisfaction rating than women
 # plot7 - most guests lie in the 40-60 age group with a few outliers
 # plot8 - the average length of stay is 1-4 nights 
-# plot9 - most of the hotel rooms are booked 10-30 days before the trip is planned. However there are a few outliers
+# plot9 - most of the hotel rooms are booked 10-30 days before the trip is planned. 
+#However there are a few outliers
 
 
