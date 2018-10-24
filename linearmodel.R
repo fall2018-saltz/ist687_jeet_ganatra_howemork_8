@@ -34,11 +34,10 @@ summary(linmod)
 #according to me, hotelClean is the best independent variable to predict customer satisfaction
 linmod_hotelClean <- lm(overallCustSat~hotelClean,data=dataset)
 summary(linmod_hotelClean)
-# Estimate Std. Error t value Pr(>|t|)
-# (Intercept) 7.0984171  0.0306494 231.600   <2e-16 ***
-# hotelSize   0.0001120  0.0001934   0.579    0.563   
-
-# Multiple R-squared:  3.354e-05,	Adjusted R-squared:  -6.648e-05
+#Estimate Std. Error t value Pr(>|t|)    
+ #(Intercept) 4.242005   0.076529   55.43   <2e-16 ***
+ #hotelClean  0.372821   0.009863   37.80   <2e-16 ***
+# Multiple R-squared:  0.125,	Adjusted R-squared:  0.1249 
 
 #comparing linear and multiple regressions, we see that the value of r-squared reduces significantly
 #when applying linear regression. Hence, multiple regression is a more accurate method for predicting
